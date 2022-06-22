@@ -1,13 +1,13 @@
 # School_District_Analysis
 # Overview 
 ## Purpose
-The purpose of challenge 4 was to learn how to use pandas to organize a large dataset and make sense of the information given. Module 4 utilizes two datasets, schools_complete.csv and students_complete.csv. 
+The purpose of challenge 4, [PyCitySchools_Challenge.ipynb](PyCitySchools_Challenge.ipynb), was to learn how to use pandas to organize a large dataset and make sense of the information given. Module 4 utilizes two datasets, [schools_complete.csv](Resources/schools_complete.csv) and [students_complete.csv](Resources/students_complete.csv). 
 Schools_complete.csv contains information about 15 different schools. This dataset can be easily read and understood, but the information is very broad and doesn’t give much in-depth information on the academic success of these schools. students_complete.csv. contains information on over 39,000 students, including grade levels, and math and reading scores. Although useful information can be found in this dataset, the amount of information can be very daunting to read. In module 4 we are able to merge and organize these two datasets, so that the information is more useful for the client. 
 
 # Results
-In the module 4 challenge we analyzed information before and after omitting all math and reading scores for 9th graders attending Thomas High School. 
+In the module 4 challenge, [PyCitySchools_Challenge.ipynb](PyCitySchools_Challenge.ipynb), we analyzed information before and after omitting all math and reading scores for 9th graders attending Thomas High School. 
 ## How is the district summary affected?
-Compared to the district summary dataframe created while following Module 4 instructions, all average scores and percentages changed in the new challenge 4 district summary dataframe. Average math scores were previously 79.0, and was lowered to 78.9 after changing the data. The average reading scores changed negligibly and remained at 81.9. Percentage passing math went from 75.0 to 74.8. Percentage passing reading went from 85.8 to 85.7. Lastly, the percentage of students passing both math and reading went from 65.2 to 64.9. 
+Compared to the district summary dataframe created while following Module 4 instructions, [PyCitySchools.ipynb](PyCitySchools.ipynb), all average scores and percentages changed in the new challenge 4 district summary dataframe. Average math scores were previously 79.0, and was lowered to 78.9 after changing the data. The average reading scores changed negligibly and remained at 81.9. Percentage passing math went from 75.0 to 74.8. Percentage passing reading went from 85.8 to 85.7. Lastly, the percentage of students passing both math and reading went from 65.2 to 64.9. 
 ## How is the school summary affected?
 The school summary dataframe shows the school type, total students, budget, budget per student, average math and reading scores, and percentage of students passing math, reading, and both math and reading. Since we didn’t change any information specific to any other schools, the information was only altered for Thomas High School. 
 ## How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
